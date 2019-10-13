@@ -28,28 +28,40 @@ async function getLinks(url) {
 };
 
 async function getAd(link) {
-    var root = await fetchHtml(link);
+    var maxRetries = 3, data = null;
 
-    if (link.indexOf('olx.pl') === -1) {
-        console.log("Oferta spoza OLX:", link);
-        return null;
-    }
+    while (maxRetries) {
+        var root = await fetchHtml(link);
 
-    var title = root.querySelector(".offer-titlebox h1").innerHTML.trim();
-    var map = root.querySelector("#mapcontainer");
-    var price = root.querySelector(".price-label strong").innerHTML.trim();
-
-    var date = root.querySelector(".offer-titlebox__details em").innerHTML;
-    var dateText = date.match(/[0-9]{2}:[0-9]{2}, \d+ \S+ \d+/)[0];
+        if (link.indexOf('olx.pl') === -1) {
+            console.log("Oferta spoza OLX:", link);
+            return null;
+        }
     
-    var data = {
-        lon: map.attributes["data-lon"],
-        lat: map.attributes["data-lat"],
-        rad: map.attributes["data-rad"],
-        title: title,
-        price: price,
-        link: link,
-        date: dateText
+        try {
+            var title = root.querySelector(".offer-titlebox h1").innerHTML.trim();
+            var map = root.querySelector("#mapcontainer");
+            var price = root.querySelector(".price-label strong").innerHTML.trim();
+        
+            var date = root.querySelector(".offer-titlebox__details em").innerHTML;
+            var dateText = date.match(/[0-9]{2}:[0-9]{2}, \d+ \S+ \d+/)[0];
+            
+            data = {
+                lon: map.attributes["data-lon"],
+                lat: map.attributes["data-lat"],
+                rad: map.attributes["data-rad"],
+                title: title,
+                price: price,
+                link: link,
+                date: dateText
+            }
+            break;        
+        }
+        catch (e) {
+            console.log('Could not parse the page. Retries left: ', maxRetries);
+            maxRetries--;
+        }
+    
     }
 
     return data;
