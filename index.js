@@ -10,9 +10,18 @@ var URL = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/warszawa/?search"
 
 console.log("Search:", SEARCH);
 
+function pad(n) {
+    if (n >= 10) {
+        return n.toString();
+    }
+    else {
+        return '0' + n.toString();
+    }
+}
+
 function getCurrentDate() {
     var d = new Date();
-    return d.getHours() + ':' + d.getMinutes() + ' ' + d.getDate() + '/' + d.getMonth()
+    return pad(d.getHours()) + ':' + pad(d.getMinutes()) + ' ' + pad(d.getDate()) + '/' + pad(d.getMonth())
 }
 
 async function fetchHtml(url) {

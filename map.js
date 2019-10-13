@@ -2,7 +2,6 @@ function hash(data) {
     return data.lon.toString() + '-' + data.lat.toString();
 }
 
-
 async function main() {
     console.log("Starting");
     var mymap = L.map('mapid').setView([52.21374000, 20.97928000], 11);
@@ -17,13 +16,15 @@ async function main() {
     var response = await fetch("./data.json");
     var json = await response.json();
     var date = json.date;
-    var ads = json.ads;
+    var allAds = json.ads;
+
+    document.getElementById("update-time").innerText = date;
 
     var color = d3.scaleLinear().domain([1000,4000]).range(["yellow", "red"]);
 
     var grouped = [];
     var groupsMap = {};
-    ads.forEach(function(ad) {
+    allAds.forEach(function(ad) {
         var dataHash = hash(ad);
         groupsMap[dataHash] = groupsMap[dataHash] || [];
         groupsMap[dataHash].push(ad);
@@ -42,7 +43,7 @@ async function main() {
         grouped.push(group);
     }
     
-    console.log('Entries:', json.length);
+    console.log('Entries:', allAds.length);
     grouped.forEach(function(group) {
 
         if (group.ads.length > 1) {
