@@ -11,9 +11,9 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: install
+    - name: Install dependencies
       run: npm install
-    - name: get data and build
+    - name: Get data and build index.html
       run: |
         node index.js
         node build.js
@@ -22,10 +22,20 @@ jobs:
         git config --local user.email "pm.jamroz@gmail.com"
         git config --local user.name "ifrost"
         git commit -m "Update data.json" -a
-        git checkout gh-pages
-        git merge origin/master
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
+    - name: Update GitHub Pages
+      run: |
+        git config --local user.email "pm.jamroz@gmail.com"
+        git config --local user.name "ifrost"
+        git checkout gh-pages
+        git merge origin/master    
+    - name: Publish Github Pages
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
+        
