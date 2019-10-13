@@ -34,6 +34,13 @@ else {
                 font-size: 10px;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
+            .link {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .visited {
+                opacity: 0.4;
+            }
         </style>
     </head>
     <body>
