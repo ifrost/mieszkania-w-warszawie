@@ -23,7 +23,7 @@ jobs:
         git config --local user.name "ifrost"
         git commit -m "Update data.json" -a
         git checkout gh-pages
-        git merge master
+        git merge origin/master
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
