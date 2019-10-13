@@ -22,9 +22,10 @@ jobs:
         git config --local user.email "pm.jamroz@gmail.com"
         git config --local user.name "ifrost"
         git commit -m "Update data.json" -a
+        git checkout gh-pages
+        git merge master
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Clear cache
-      run: curl -u ifrost:${{ secrets.GITHUB_TOKEN }} -X POST https://api.github.com/repos/ifrost/mieszkania-w-warszawie/pages/builds -H "Accept:application/vnd.github.mister-fantastic-preview+json"
+        branch: gh-pages
