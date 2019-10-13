@@ -13,7 +13,7 @@ async function main() {
 	accessToken: 'pk.eyJ1IjoicGlkemVqdSIsImEiOiJjazFubm9zc2QwYTZ1M2RrNjZlYXhoZGt6In0.-u6IuJTQBG8KdIkDJxfXHA'
 }).addTo(mymap);
 
-    var response = await fetch("./data.json");
+    var response = await fetch("./data.json?t" + Date.now());
     var json = await response.json();
     var date = json.date;
     var allAds = json.ads;
