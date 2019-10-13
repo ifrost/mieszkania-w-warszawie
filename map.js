@@ -1,9 +1,27 @@
+var visitedLinks;
+
 function hash(data) {
     return data.lon.toString() + '-' + data.lat.toString();
 }
 
+function isVisited(link) {
+    return visitedLinks.indexOf(link) !== -1;
+}
+
+function visit(link) {
+    window.open(link, "_blank");
+    if (!isVisited(link)) {
+        visitedLinks.push(link);
+    }
+    window.localStorage.setItem('visitedLinks', JSON.stringify(visitedLinks));
+}
+
 async function main() {
     console.log("Starting");
+
+    visitedLinks = window.localStorage.getItem('visitedLinks');
+    visitedLinks = visitedLinks ? JSON.parse(visitedLinks) : [];
+
     var mymap = L.map('mapid').setView([52.21374000, 20.97928000], 11);
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -38,7 +56,8 @@ async function main() {
             rad: Math.max.apply(null, groupsMap[dataHash].map(function(ad) {return ad.rad;})),
             lat: groupsMap[dataHash][0].lat,
             lon: groupsMap[dataHash][0].lon,
-            ads: ads
+            ads: ads,
+            visited: ads.every(function(ad) { return isVisited(ad.link) })
         }
         grouped.push(group);
     }
@@ -62,11 +81,13 @@ async function main() {
         }).addTo(mymap);
 
         var marker =  L.marker([group.lat, group.lon], {
-            color: c
+            color: c,
+            opacity: group.visited ? 0.4 : 1
         }).addTo(mymap);
 
         var popup = group.ads.map(function(ad) {
-            return '• ' + ad.price + " zł: " + ad.title + ' | <a href="' + ad.link + '" target="_blank">' + ad.source + '</a><br />';
+            var className = isVisited(ad.link) ? "visited" : "not-visited";
+            return '• <span class="' + className + '">' + ad.price + " zł: " + ad.title + ' | <span class="link" onclick="visit(\'' + ad.link + '\')">' + ad.source + '</span></span><br />';
         }).join('');
         marker.bindPopup(popup, { maxWidth: 800 });
         (function(bindPopup) {

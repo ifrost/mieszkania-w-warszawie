@@ -21,7 +21,7 @@ function pad(n) {
 
 function getCurrentDate() {
     var d = new Date();
-    return pad(d.getHours()) + ':' + pad(d.getMinutes()) + ' ' + pad(d.getDate()) + '/' + pad(d.getMonth())
+    return pad(d.getHours()) + ':' + pad(d.getMinutes()) + ' ' + pad(d.getDate()) + '/' + pad(d.getMonth() + 1)
 }
 
 async function fetchHtml(url) {
