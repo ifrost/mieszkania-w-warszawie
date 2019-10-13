@@ -19,9 +19,9 @@ jobs:
         node build.js
     - name: commit
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -m "Updaet data.json" -a
+        git config --local user.email "pm.jamroz@gmail.com"
+        git config --local user.name "ifrost"
+        git commit -m "Update data.json" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
