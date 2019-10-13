@@ -13,8 +13,10 @@ jobs:
     - uses: actions/checkout@v1
     - name: install
       run: npm install
-    - name: get data
-      run: node index.js
+    - name: get data and build
+      run: |
+        node index.js
+        node build.js
     - name: commit
       run: |
         git config --local user.email "action@github.com"
