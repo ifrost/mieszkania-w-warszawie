@@ -1,3 +1,8 @@
+function hash(data) {
+    return data.lon.toString() + '-' + data.lat.toString();
+}
+
+
 async function main() {
     console.log("Starting");
     var mymap = L.map('mapid').setView([52.21374000, 20.97928000], 11);
@@ -11,23 +16,28 @@ async function main() {
 
     var response = await fetch("./data.json");
     var json = await response.json();
+    var date = json.date;
+    var ads = json.ads;
 
     var color = d3.scaleLinear().domain([1000,4000]).range(["yellow", "red"]);
 
     var grouped = [];
     var groupsMap = {};
-    function hash(data) { return data.lon.toString() + '-' + data.lat.toString();}
-    json.forEach(function(ad) {
+    ads.forEach(function(ad) {
         var dataHash = hash(ad);
         groupsMap[dataHash] = groupsMap[dataHash] || [];
         groupsMap[dataHash].push(ad);
     });
     for (dataHash in groupsMap) {
+        var ads = groupsMap[dataHash];
+        ads.sort(function(a,b) {
+            return a.price - b.price;
+        })
         var group = {
             rad: Math.max.apply(null, groupsMap[dataHash].map(function(ad) {return ad.rad;})),
             lat: groupsMap[dataHash][0].lat,
             lon: groupsMap[dataHash][0].lon,
-            ads: groupsMap[dataHash]
+            ads: ads
         }
         grouped.push(group);
     }
@@ -39,10 +49,10 @@ async function main() {
             var c = '#999999';
         }
         else {
-            var c = color(parseInt(group.ads[0].price.replace(/[^0-9]/g,'')));
+            var c = color(group.ads[0].price);
         }
         
-        var circle = L.circle([group.lat, group.lon], {
+        L.circle([group.lat, group.lon], {
             color: c,
             fillColor: c,
             opacity: group.ads.length > 1 ? 0.2 : 0.4, 
@@ -55,7 +65,7 @@ async function main() {
         }).addTo(mymap);
 
         var popup = group.ads.map(function(ad) {
-            return '- ' + ad.price + ": " + ad.title + ' (' + ad.date + ') | <a href="' + ad.link + '" target="_blank">link</a><br />';
+            return '• ' + ad.price + " zł: " + ad.title + ' | <a href="' + ad.link + '" target="_blank">' + ad.source + '</a><br />';
         }).join('');
         marker.bindPopup(popup, { maxWidth: 800 });
         (function(bindPopup) {

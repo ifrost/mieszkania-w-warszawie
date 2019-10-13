@@ -10,6 +10,11 @@ var URL = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/warszawa/?search"
 
 console.log("Search:", SEARCH);
 
+function getCurrentDate() {
+    var d = new Date();
+    return d.getHours() + ':' + d.getMinutes() + ' ' + d.getDate() + '/' + d.getMonth()
+}
+
 async function fetchHtml(url) {
     var result = await fetch(url);
     var html = await result.text();
@@ -27,38 +32,71 @@ async function getLinks(url) {
     return links;
 };
 
+async function parseOlx(link) {
+
+    var result = await fetch(link);
+    var html = await result.text();
+    var root = parse(html);
+
+    var title = root.querySelector(".offer-titlebox h1").innerHTML.trim();
+    var map = root.querySelector("#mapcontainer");
+    var price = root.querySelector(".price-label strong").innerHTML.trim();
+
+    var date = root.querySelector(".offer-titlebox__details em").innerHTML;
+    
+    price = parseInt(price.replace(/[^0-9]/g,''));
+
+    return {
+        title: title,
+        lon: parseFloat(map.attributes["data-lon"]),
+        lat: parseFloat(map.attributes["data-lat"]),
+        rad: parseFloat(map.attributes["data-rad"]),
+        price: price,
+        link: link,
+        source: 'olx'
+    }
+}
+
+async function parseOtoDom(link) {
+    var result = await fetch(link);
+    var html = await result.text();
+    var root = parse(html);
+
+    var title = root.querySelector(".css-18igut2").innerHTML.trim();
+    var lat = parseFloat(html.match(/"latitude":([0-9.]+)/)[0].split(":")[1]);
+    var lon = parseFloat(html.match(/"longitude":([0-9.]+)/)[0].split(":")[1]);
+    var price = root.querySelector(".css-1vr19r7").innerHTML.split('/')[0];
+    price = parseInt(price.replace(/[^0-9]/g,''));
+
+    return {
+        title: title,
+        lon: parseFloat(lon),
+        lat: parseFloat(lat),
+        rad: 10,
+        price: price,
+        link: link,
+        source: 'otodom'
+    }
+}
+
 async function getAd(link) {
     var maxRetries = 3, data = null;
 
     while (maxRetries) {
-        var root = await fetchHtml(link);
-
-        if (link.indexOf('olx.pl') === -1) {
-            console.log("Oferta spoza OLX:", link);
-            return null;
-        }
     
         try {
-            var title = root.querySelector(".offer-titlebox h1").innerHTML.trim();
-            var map = root.querySelector("#mapcontainer");
-            var price = root.querySelector(".price-label strong").innerHTML.trim();
-        
-            var date = root.querySelector(".offer-titlebox__details em").innerHTML;
-            var dateText = date.match(/[0-9]{2}:[0-9]{2}, \d+ \S+ \d+/)[0];
-            
-            data = {
-                lon: map.attributes["data-lon"],
-                lat: map.attributes["data-lat"],
-                rad: map.attributes["data-rad"],
-                title: title,
-                price: price,
-                link: link,
-                date: dateText
+            if (link.indexOf('olx.pl') !== -1) {
+                data = await parseOlx(link);
+            } else if (link.indexOf('otodom.pl') !== -1) {
+                data = await parseOtoDom(link);
+            } else {
+                console.log("Nieznane zrodlo oferty:", link);
+                return null;
             }
             break;        
         }
         catch (e) {
-            console.log('Could not parse the page. Retries left: ', maxRetries);
+            console.log('Could not parse the page. Retries left: ', maxRetries, e.stack);
             maxRetries--;
         }
     
@@ -88,6 +126,11 @@ async function getAd(link) {
         }
     };
 
-    fs.writeFileSync("data.json", JSON.stringify(ads), { encoding: 'utf-8' });
+    var json = {
+        date: getCurrentDate(),
+        ads: ads
+    }
+
+    fs.writeFileSync("data.json", JSON.stringify(json, null, 2), { encoding: 'utf-8' });
 })();
 
