@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:acceptance": "mocha test/acceptance/get-data.test.js",
+    "test:acceptance:debug": "mocha --debug --watch test/acceptance/get-data.test.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "mock-require": "^3.0.3",
     "node-fetch": "^2.6.0",
     "node-html-parser": "^1.1.16"
   }
