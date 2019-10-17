@@ -2,13 +2,14 @@ var process = require("process");
 var fetch = require("node-fetch");
 var { parse } = require("node-html-parser");
 var fs = require("fs"); 
+var logger = require("./logger");
 
 var SEARCH_1 = "%5Bfilter_enum_floor_select%5D%5B0%5D=floor_2&search%5Bfilter_enum_floor_select%5D%5B1%5D=floor_3&search%5Bfilter_enum_floor_select%5D%5B2%5D=floor_4&search%5Bfilter_enum_floor_select%5D%5B3%5D=floor_5&search%5Bfilter_enum_floor_select%5D%5B4%5D=floor_6&search%5Bfilter_enum_floor_select%5D%5B5%5D=floor_7&search%5Bfilter_enum_furniture%5D%5B0%5D=yes&search%5Bfilter_float_m%3Afrom%5D=40&search%5Bfilter_enum_rooms%5D%5B0%5D=two&search%5Bphotos%5D=1";
 
 var SEARCH = process.argv[2]  || SEARCH_1;
 var URL = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/warszawa/?search";
 
-console.log("Search:", SEARCH);
+logger.log("Search:", SEARCH);
 
 function pad(n) {
     if (n >= 10) {
@@ -21,7 +22,7 @@ function pad(n) {
 
 function getCurrentDate() {
     var d = new Date();
-    return pad(d.getHours()) + ':' + pad(d.getMinutes()) + ' ' + pad(d.getDate()) + '/' + pad(d.getMonth() + 1)
+    return pad(d.getHours()) + ':' + pad(d.getMinutes()) + ' ' + pad(d.getDate()) + '/' + pad(d.getMonth() + 1);
 }
 
 async function fetchHtml(url) {
@@ -99,13 +100,13 @@ async function getAd(link) {
             } else if (link.indexOf('otodom.pl') !== -1) {
                 data = await parseOtoDom(link);
             } else {
-                console.log("Nieznane zrodlo oferty:", link);
+                logger.log("Nieznane zrodlo oferty:", link);
                 return null;
             }
             break;        
         }
         catch (e) {
-            console.log('Could not parse the page. Retries left: ', maxRetries, e.stack);
+            logger.log('Could not parse the page. Retries left: ', maxRetries, e.stack);
             maxRetries--;
         }
     
@@ -120,12 +121,12 @@ module.exports = async function getData() {
 
     var ads = [];
     for (var i=1; i <= maxPages; i++) {
-        console.log("Loading page:", i, "of", maxPages)
+        logger.log("Loading page:", i, "of", maxPages)
         var links = await getLinks(URL + SEARCH + '&page=' + i);
     
         for (var l=0; l < links.length; l++) {
             var link = links[l];           
-            console.log("Loading link", l+1, "of", links.length, "(page: " + i + ")", link);
+            logger.log("Loading link", l+1, "of", links.length, "(page: " + i + ")", link);
             var ad = await getAd(link);
             if (ad && loadedLinks.indexOf(link) === -1) {
                 ads.push(ad);
