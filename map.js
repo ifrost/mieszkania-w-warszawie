@@ -9,11 +9,15 @@ function isVisited(link) {
 }
 
 function visit(link) {
-    window.open(link, "_blank");
+    openLink(link);
     if (!isVisited(link)) {
         visitedLinks.push(link);
     }
     window.localStorage.setItem('visitedLinks', JSON.stringify(visitedLinks));
+}
+
+function openLink(link) {
+    window.open(link, "_blank");
 }
 
 async function main() {
@@ -34,7 +38,11 @@ async function main() {
     var response = await fetch("./data.json?t" + Date.now());
     var json = await response.json();
     var date = json.date;
-    var allAds = json.ads;
+    var maxPriceSearch = window.location.href.match(/maxPrice=(\d+)/);
+    var maxPrice = maxPriceSearch ? parseFloat(maxPriceSearch[1]) : Infinity;
+    var allAds = json.ads.filter(function(ad) {
+        return ad.price <= maxPrice;
+    });
 
     document.getElementById("update-time").innerText = date;
 
@@ -87,7 +95,10 @@ async function main() {
 
         var popup = group.ads.map(function(ad) {
             var className = isVisited(ad.link) ? "visited" : "not-visited";
-            return '• <span class="' + className + '">' + ad.price + " zł: " + ad.title + ' | <span class="link" onclick="visit(\'' + ad.link + '\')">' + ad.source + '</span></span><br />';
+            var line = '• <span class="' + className + '">' + ad.price + " zł: " + ad.title + ' | <span class="link" onclick="visit(\'' + ad.link + '\')">' + ad.source + '</span>';
+            var jakdojade = 'https://jakdojade.pl/warszawa/trasa/z--undefined--do--undefined?fc=' + ad.lat.toString() + ':' + ad.lon.toString() + '&tc=52.2320609:21.0139274&d=03.12.19&h=08:00&ft=LOCATION_TYPE_COORDINATE&tt=LOCATION_TYPE_COORDINATE&aro=1&t=1&rc=3&ri=1&r=0';
+            line += ' | <span class="link" onclick="openLink(\'' + jakdojade + '\')">jakdojade</span></span><br />'
+            return line
         }).join('');
         marker.bindPopup(popup, { maxWidth: 800 });
         (function(bindPopup) {
