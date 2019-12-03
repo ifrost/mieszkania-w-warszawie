@@ -35,7 +35,7 @@ async function getLinks(url) {
 
     var ads = root.querySelectorAll("[data-cy=listing-ad-title]");
     var links = ads.map(function(element) {
-        return element.attributes.href;
+        return element.attributes.href.split('#')[0];
     });
 
     return links;
