@@ -1,40 +1,40 @@
 {
-  "date": "00:12 21/12",
+  "date": "00:11 22/12",
   "ads": [
     {
-      "title": "Ciche mieszkanie do wynajęcia",
-      "lon": 21.07510722,
-      "lat": 52.15462617,
-      "rad": 0,
-      "price": 2300,
-      "link": "https://www.olx.pl/oferta/ciche-mieszkanie-do-wynajecia-CID3-IDA5Ies.html",
-      "source": "olx"
-    },
-    {
-      "title": "Stary Mokotów 2 pokoje, przy samej stacji metra Racławicka/ Mokotów",
-      "lon": 21.03232,
-      "lat": 52.19282,
-      "rad": 2000,
-      "price": 2800,
-      "link": "https://www.olx.pl/oferta/stary-mokotow-2-pokoje-przy-samej-stacji-metra-raclawicka-mokotow-CID3-IDCWNb3.html",
-      "source": "olx"
-    },
-    {
-      "title": "Wynajmę bezpośrednio Centrum, przy metrze, ochrona",
-      "lon": 21.01637962,
-      "lat": 52.22240959,
-      "rad": 0,
-      "price": 2800,
-      "link": "https://www.olx.pl/oferta/wynajme-bezposrednio-centrum-przy-metrze-ochrona-CID3-IDCTPU6.html",
-      "source": "olx"
-    },
-    {
-      "title": "Piękny apartament w Ursusie",
+      "title": "OKAZJA! 2 pok. 45 m2 Skorosze Ursus",
       "lon": 20.88159,
       "lat": 52.19474,
       "rad": 0,
+      "price": 2200,
+      "link": "https://www.olx.pl/oferta/okazja-2-pok-45-m2-skorosze-ursus-CID3-IDCLnLa.html",
+      "source": "olx"
+    },
+    {
+      "title": "Bezpośrednio 2 pokoje w wysokim standardzie, ul. Romańska",
+      "lon": 20.96608,
+      "lat": 52.23725,
+      "rad": 2000,
       "price": 2500,
-      "link": "https://www.olx.pl/oferta/piekny-apartament-w-ursusie-CID3-IDCIYpa.html",
+      "link": "https://www.olx.pl/oferta/bezposrednio-2-pokoje-w-wysokim-standardzie-ul-romanska-CID3-IDCT3Op.html",
+      "source": "olx"
+    },
+    {
+      "title": "NOWE, 2 pokojowe 42m2, Warszawa Wola, Obozowa 20, miejsce garażowe, 3p",
+      "lon": 20.96455574,
+      "lat": 52.24584961,
+      "rad": 0,
+      "price": 3500,
+      "link": "https://www.olx.pl/oferta/nowe-2-pokojowe-42m2-warszawa-wola-obozowa-20-miejsce-garazowe-3p-CID3-IDBDWPV.html",
+      "source": "olx"
+    },
+    {
+      "title": "Wynajmę mieszkanie na Woli",
+      "lon": 20.93433494,
+      "lat": 52.22815445,
+      "rad": 0,
+      "price": 2300,
+      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-na-woli-CID3-IDCNOWJ.html",
       "source": "olx"
     },
     {
@@ -47,21 +47,282 @@
       "source": "olx"
     },
     {
-      "title": "CENTRUM - klimatyczne 46m2- super lokalizacja /ENGLISH below/",
-      "lon": 21.01522,
-      "lat": 52.23474,
-      "rad": 2000,
-      "price": 2400,
-      "link": "https://www.olx.pl/oferta/centrum-klimatyczne-46m2-super-lokalizacja-english-below-CID3-IDCxQVW.html",
+      "title": "Warszawa, Ursynów, Wynajmę Mieszkanie 2-pok, 56m2, blisko metraNatolin",
+      "lon": 21.03333,
+      "lat": 52.1401,
+      "rad": 3000,
+      "price": 2600,
+      "link": "https://www.olx.pl/oferta/warszawa-ursynow-wynajme-mieszkanie-2-pok-56m2-blisko-metranatolin-CID3-IDCWhcc.html",
       "source": "olx"
     },
     {
-      "title": "Wynajmę mieszkanie Warszawa Wola 42m2",
-      "lon": 20.9683342,
-      "lat": 52.23083115,
+      "title": "2 pokojowe mieszkanie blisko centrum, 6 min od metra Pola Mokotowskie",
+      "lon": 21.02139804,
+      "lat": 52.20784894,
+      "rad": 0,
+      "price": 2165,
+      "link": "https://www.olx.pl/oferta/2-pokojowe-mieszkanie-blisko-centrum-6-min-od-metra-pola-mokotowskie-CID3-IDBDSYf.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie Warszawa Bemowo ul. Coopera",
+      "lon": 20.89342426,
+      "lat": 52.23702011,
+      "rad": 0,
+      "price": 2300,
+      "link": "https://www.olx.pl/oferta/mieszkanie-warszawa-bemowo-ul-coopera-CID3-IDCXwTe.html",
+      "source": "olx"
+    },
+    {
+      "title": "Wynajmę mieszkanie 53m2 Praga-Południe",
+      "lon": 21.1650169,
+      "lat": 52.1951046,
       "rad": 0.5,
-      "price": 2250,
-      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-warszawa-wola-42m2-CID3-IDCb4JB.html",
+      "price": 2400,
+      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-53m2-praga-poludnie-CID3-IDCXwaQ.html",
+      "source": "olx"
+    },
+    {
+      "title": "Apartament NA SYLWESTRA, dla 4 osób, Warszawa Śródmieście",
+      "lon": 21.03904343,
+      "lat": 52.22590637,
+      "rad": 0.5,
+      "price": 900,
+      "link": "https://www.olx.pl/oferta/apartament-na-sylwestra-dla-4-osob-warszawa-srodmiescie-CID3-IDCXw29.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie Aluzyjna, 2 pokoje, 45m, Białołęka, Tarchomin",
+      "lon": 20.94136429,
+      "lat": 52.34892654,
+      "rad": 0.5,
+      "price": 1800,
+      "link": "https://www.olx.pl/oferta/mieszkanie-aluzyjna-2-pokoje-45m-bialoleka-tarchomin-CID3-IDCLYHE.html",
+      "source": "olx"
+    },
+    {
+      "title": "Wynajmę mieszkanie Ursynów Kabaty 50 m2, 2 pokoje",
+      "lon": 21.06491628,
+      "lat": 52.13314646,
+      "rad": 0,
+      "price": 2300,
+      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-ursynow-kabaty-50-m2-2-pokoje-CID3-IDCXulx.html",
+      "source": "olx"
+    },
+    {
+      "title": "Wynajmę 2 pokoje ul. Wiejska - vis a vis Sejmu",
+      "lon": 21.02749379,
+      "lat": 52.22711741,
+      "rad": 0,
+      "price": 2600,
+      "link": "https://www.olx.pl/oferta/wynajme-2-pokoje-ul-wiejska-vis-a-vis-sejmu-CID3-IDCMRok.html",
+      "source": "olx"
+    },
+    {
+      "title": "Bezpośrednio wynajme 2 pokojowe mieszkanie blisko metra Natolin",
+      "lon": 21.06165413,
+      "lat": 52.14220703,
+      "rad": 0,
+      "price": 2300,
+      "link": "https://www.olx.pl/oferta/bezposrednio-wynajme-2-pokojowe-mieszkanie-blisko-metra-natolin-CID3-IDCXswK.html",
+      "source": "olx"
+    },
+    {
+      "title": "Dwa oddzielne pokoje do wynajęcia! 8 minut tramwajem do Metra Młociny.",
+      "lon": 20.99661,
+      "lat": 52.33008,
+      "rad": 3000,
+      "price": 2150,
+      "link": "https://www.olx.pl/oferta/dwa-oddzielne-pokoje-do-wynajecia-8-minut-tramwajem-do-metra-mlociny-CID3-IDCXse7.html",
+      "source": "olx"
+    },
+    {
+      "title": "Urocze 2 Pokojowe Mieszkanie Ursynów, Blisko Metra",
+      "lon": 21.0350711,
+      "lat": 52.15608435,
+      "rad": 3000,
+      "price": 2700,
+      "link": "https://www.olx.pl/oferta/urocze-2-pokojowe-mieszkanie-ursynow-blisko-metra-CID3-IDCXrBP.html",
+      "source": "olx"
+    },
+    {
+      "title": "Stylowe mieszkanie na Mokotowie / 2 pokoje od 30.12",
+      "lon": 20.99318735,
+      "lat": 52.19298463,
+      "rad": 0,
+      "price": 2500,
+      "link": "https://www.olx.pl/oferta/stylowe-mieszkanie-na-mokotowie-2-pokoje-od-30-12-CID3-IDCVbKx.html",
+      "source": "olx"
+    },
+    {
+      "title": "Wynajmę mieszkanie na Ursunowie przy ul. Stryjeńskich",
+      "lon": 21.05444427,
+      "lat": 52.14115347,
+      "rad": 2000,
+      "price": 2200,
+      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-na-ursunowie-przy-ul-stryjenskich-CID3-IDCIao2.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie 2 pokoje Karolkowa 28 metro Rondo Daszyńskiego",
+      "lon": 20.96608,
+      "lat": 52.23725,
+      "rad": 3000,
+      "price": 3300,
+      "link": "https://www.olx.pl/oferta/mieszkanie-2-pokoje-karolkowa-28-metro-rondo-daszynskiego-CID3-IDCH3mH.html",
+      "source": "olx"
+    },
+    {
+      "title": "Wynajme mieszkanie tarchomin BEZPOŚREDNIO",
+      "lon": 20.95662944,
+      "lat": 52.32716331,
+      "rad": 0.5,
+      "price": 2300,
+      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-tarchomin-bezposrednio-CID3-IDCn5zR.html",
+      "source": "olx"
+    },
+    {
+      "title": "Ładne, z garażem przy Polach Mokotowskich",
+      "lon": 21.03232,
+      "lat": 52.19282,
+      "rad": 3000,
+      "price": 2300,
+      "link": "https://www.olx.pl/oferta/ladne-z-garazem-przy-polach-mokotowskich-CID3-IDCJS7z.html",
+      "source": "olx"
+    },
+    {
+      "title": "Wilanów 2 pokoje bezpośrednio Bezczynszowe",
+      "lon": 21.09296,
+      "lat": 52.15926,
+      "rad": 2000,
+      "price": 2500,
+      "link": "https://www.olx.pl/oferta/wilanow-2-pokoje-bezposrednio-bezczynszowe-CID3-IDCMKjI.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie do wynajęcia Ursus - ul.Przy Forcie",
+      "lon": 20.88159,
+      "lat": 52.19474,
+      "rad": 0,
+      "price": 1750,
+      "link": "https://www.olx.pl/oferta/mieszkanie-do-wynajecia-ursus-ul-przy-forcie-CID3-IDCMpSX.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie do wynajęcia, 2 pokoje Wola/Śródmieście",
+      "lon": 20.98272931,
+      "lat": 52.24907086,
+      "rad": 0,
+      "price": 2000,
+      "link": "https://www.olx.pl/oferta/mieszkanie-do-wynajecia-2-pokoje-wola-srodmiescie-CID3-IDzH33B.html",
+      "source": "olx"
+    },
+    {
+      "title": "Bezpośrednio Ciche i Słoneczne 2 pokoje przy metro KABATY - 2 min las",
+      "lon": 21.06122544,
+      "lat": 52.12982695,
+      "rad": 0,
+      "price": 2000,
+      "link": "https://www.olx.pl/oferta/bezposrednio-ciche-i-sloneczne-2-pokoje-przy-metro-kabaty-2-min-las-CID3-IDBBbai.html",
+      "source": "olx"
+    },
+    {
+      "title": "Bezpośrednio wynajmę mieszkanie 2-pokojowe",
+      "lon": 20.97974633,
+      "lat": 52.17894115,
+      "rad": 2000,
+      "price": 2500,
+      "link": "https://www.olx.pl/oferta/bezposrednio-wynajme-mieszkanie-2-pokojowe-CID3-IDCS1gq.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie do wynajęcia na Ochocie",
+      "lon": 20.96863698,
+      "lat": 52.2142659,
+      "rad": 1561,
+      "price": 2200,
+      "link": "https://www.olx.pl/oferta/mieszkanie-do-wynajecia-na-ochocie-CID3-IDBFlO5.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkaine dwupokojowe do wynajęcia na Młocinach",
+      "lon": 20.92832344,
+      "lat": 52.3055766,
+      "rad": 0,
+      "price": 2400,
+      "link": "https://www.olx.pl/oferta/mieszkaine-dwupokojowe-do-wynajecia-na-mlocinach-CID3-IDBIZEJ.html",
+      "source": "olx"
+    },
+    {
+      "title": "Piękne Mieszkanie 40m2 - W Pełni Wyposażone",
+      "lon": 20.98132,
+      "lat": 52.26735,
+      "rad": 2000,
+      "price": 2300,
+      "link": "https://www.olx.pl/oferta/piekne-mieszkanie-40m2-w-pelni-wyposazone-CID3-IDCT6qO.html",
+      "source": "olx"
+    },
+    {
+      "title": "Wynajmę 2-pokojowe mieszkanie Targówek Bródno",
+      "lon": 21.03038809,
+      "lat": 52.28562879,
+      "rad": 0,
+      "price": 2100,
+      "link": "https://www.olx.pl/oferta/wynajme-2-pokojowe-mieszkanie-targowek-brodno-CID3-IDCXgQZ.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie 2 pokoje z osobną kuchnią- Kabaty",
+      "lon": 21.03333,
+      "lat": 52.1401,
+      "rad": 2000,
+      "price": 2700,
+      "link": "https://www.olx.pl/oferta/mieszkanie-2-pokoje-z-osobna-kuchnia-kabaty-CID3-IDCFD0c.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie na wynajem Targowek Bródno",
+      "lon": 21.06244326,
+      "lat": 52.28041218,
+      "rad": 0.5,
+      "price": 2500,
+      "link": "https://www.olx.pl/oferta/mieszkanie-na-wynajem-targowek-brodno-CID3-IDC7r1c.html",
+      "source": "olx"
+    },
+    {
+      "title": "2 pokojowe mieszkanie w centrum przy metrze BEZPOŚREDNIO- możliwość FV",
+      "lon": 20.96608,
+      "lat": 52.23725,
+      "rad": 0,
+      "price": 2500,
+      "link": "https://www.olx.pl/oferta/2-pokojowe-mieszkanie-w-centrum-przy-metrze-bezposrednio-mozliwosc-fv-CID3-IDCUyCm.html",
+      "source": "olx"
+    },
+    {
+      "title": "Piękny apartament w Ursusie",
+      "lon": 20.88159,
+      "lat": 52.19474,
+      "rad": 0,
+      "price": 2500,
+      "link": "https://www.olx.pl/oferta/piekny-apartament-w-ursusie-CID3-IDCIYpa.html",
+      "source": "olx"
+    },
+    {
+      "title": "Piękne mieszkanie 52m2 w kamienicy, ul. Belwederska",
+      "lon": 21.03677534,
+      "lat": 52.20376073,
+      "rad": 0,
+      "price": 3100,
+      "link": "https://www.olx.pl/oferta/piekne-mieszkanie-52m2-w-kamienicy-ul-belwederska-CID3-IDCX92K.html",
+      "source": "olx"
+    },
+    {
+      "title": "BEZPOŚREDNIO. Metro. Dwupokojowe",
+      "lon": 21.03433851,
+      "lat": 52.1556502,
+      "rad": 0,
+      "price": 2499,
+      "link": "https://www.olx.pl/oferta/bezposrednio-metro-dwupokojowe-CID3-IDCSsGN.html",
       "source": "olx"
     },
     {
@@ -71,6 +332,132 @@
       "rad": 0,
       "price": 3000,
       "link": "https://www.olx.pl/oferta/nowe-2-pokojowe-47m2-woronicza-33-CID3-IDCUYou.html",
+      "source": "olx"
+    },
+    {
+      "title": "2-pokojowe mieszkanie Warszawa Targówek, ul. Zielone Zacisze",
+      "lon": 21.052291,
+      "lat": 52.28919585,
+      "rad": 0,
+      "price": 1800,
+      "link": "https://www.olx.pl/oferta/2-pokojowe-mieszkanie-warszawa-targowek-ul-zielone-zacisze-CID3-IDBX4FR.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie do wynajęcia - Stare Miasto",
+      "lon": 21.00693774,
+      "lat": 52.23192782,
+      "rad": 3000,
+      "price": 2600,
+      "link": "https://www.olx.pl/oferta/mieszkanie-do-wynajecia-stare-miasto-CID3-IDCUnyX.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie 2 pokoje, Białołęka, piękne, czyste, przytulne z kominkiem",
+      "lon": 20.9745507,
+      "lat": 52.33600625,
+      "rad": 3000,
+      "price": 1900,
+      "link": "https://www.olx.pl/oferta/mieszkanie-2-pokoje-bialoleka-piekne-czyste-przytulne-z-kominkiem-CID3-IDCaqUf.html",
+      "source": "olx"
+    },
+    {
+      "title": "Nowe mieszkanie 2 pokojowe, osobna kuchnia + garaż, Bemowo",
+      "lon": 20.90661049,
+      "lat": 52.24335861,
+      "rad": 2000,
+      "price": 2500,
+      "link": "https://www.olx.pl/oferta/nowe-mieszkanie-2-pokojowe-osobna-kuchnia-garaz-bemowo-CID3-IDCBQrC.html",
+      "source": "olx"
+    },
+    {
+      "title": "Marszałkowska 140, Śródmieście, 2 pokoje ekskluzywnie , balkon,0%",
+      "lon": 21.01522,
+      "lat": 52.23474,
+      "rad": 0,
+      "price": 3400,
+      "link": "https://www.olx.pl/oferta/marszalkowska-140-srodmiescie-2-pokoje-ekskluzywnie-balkon-0-CID3-IDC8lCZ.html",
+      "source": "olx"
+    },
+    {
+      "title": "56m2 - 2-pokojowe z garażem",
+      "lon": 20.90886894,
+      "lat": 52.19728421,
+      "rad": 0,
+      "price": 2500,
+      "link": "https://www.olx.pl/oferta/56m2-2-pokojowe-z-garazem-CID3-IDAgikv.html",
+      "source": "olx"
+    },
+    {
+      "title": "MIESZKANIE NA BRÓDNIE, 50m od parku Bródnowskiego 300m od metra Bródno",
+      "lon": 21.04117775,
+      "lat": 52.28989792,
+      "rad": 0.5,
+      "price": 1950,
+      "link": "https://www.olx.pl/oferta/mieszkanie-na-brodnie-50m-od-parku-brodnowskiego-300m-od-metra-brodno-CID3-IDBAOiM.html",
+      "source": "olx"
+    },
+    {
+      "title": "Stary Mokotów 2 pokoje, przy samej stacji metra Racławicka/ Mokotów",
+      "lon": 21.03232,
+      "lat": 52.19282,
+      "rad": 2000,
+      "price": 2800,
+      "link": "https://www.olx.pl/oferta/stary-mokotow-2-pokoje-przy-samej-stacji-metra-raclawicka-mokotow-CID3-IDCWNb3.html",
+      "source": "olx"
+    },
+    {
+      "title": "Urocze 2 Pokojowe Mieszkanie Ursynów, Blisko Metra",
+      "lon": 21.03680621,
+      "lat": 52.15734797,
+      "rad": 317,
+      "price": 2700,
+      "link": "https://www.olx.pl/oferta/urocze-2-pokojowe-mieszkanie-ursynow-blisko-metra-CID3-IDCX2bS.html",
+      "source": "olx"
+    },
+    {
+      "title": "Nowe-2pok-42m-Wola-ul.Kasprzaka-ciche-balkon-garaż",
+      "lon": 21.01522,
+      "lat": 52.23474,
+      "rad": 2000,
+      "price": 2100,
+      "link": "https://www.olx.pl/oferta/nowe-2pok-42m-wola-ul-kasprzaka-ciche-balkon-garaz-CID3-IDCMeZC.html",
+      "source": "olx"
+    },
+    {
+      "title": "1 pok-30m-ul.Bagno-Centrum-ciche-internet",
+      "lon": 21.01522,
+      "lat": 52.23474,
+      "rad": 2000,
+      "price": 1900,
+      "link": "https://www.olx.pl/oferta/1-pok-30m-ul-bagno-centrum-ciche-internet-CID3-IDBw0sp.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie 45 m2. Ursynów ul. Kłobucka 8",
+      "lon": 20.99453537,
+      "lat": 52.16106036,
+      "rad": 0,
+      "price": 2350,
+      "link": "https://www.olx.pl/oferta/mieszkanie-45-m2-ursynow-ul-klobucka-8-CID3-IDCUV5z.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie dwupokojowe do wynajęcia na Woli, Sławińska",
+      "lon": 20.97037149,
+      "lat": 52.22369729,
+      "rad": 0,
+      "price": 2400,
+      "link": "https://www.olx.pl/oferta/mieszkanie-dwupokojowe-do-wynajecia-na-woli-slawinska-CID3-IDCaYNP.html",
+      "source": "olx"
+    },
+    {
+      "title": "Wynajmę mieszkanie Warszawa Wola 42m2",
+      "lon": 20.9683342,
+      "lat": 52.23083115,
+      "rad": 0.5,
+      "price": 2250,
+      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-warszawa-wola-42m2-CID3-IDCb4JB.html",
       "source": "olx"
     },
     {
@@ -119,30 +506,12 @@
       "source": "olx"
     },
     {
-      "title": "Wynajmę mieszkanie na Woli",
-      "lon": 20.93433494,
-      "lat": 52.22815445,
-      "rad": 0,
-      "price": 2300,
-      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-na-woli-CID3-IDCNOWJ.html",
-      "source": "olx"
-    },
-    {
       "title": "2pok-60m-ul.Fleminga-Białołęka-balkon-garaż-NOWE",
       "lon": 20.99661,
       "lat": 52.33008,
       "rad": 2000,
       "price": 2000,
       "link": "https://www.olx.pl/oferta/2pok-60m-ul-fleminga-bialoleka-balkon-garaz-nowe-CID3-IDCl0iD.html",
-      "source": "olx"
-    },
-    {
-      "title": "Mieszkanie 2 pokoje, 52 m, bliska Wola. Po remoncie.",
-      "lon": 20.96608,
-      "lat": 52.23725,
-      "rad": 0,
-      "price": 2200,
-      "link": "https://www.olx.pl/oferta/mieszkanie-2-pokoje-52-m-bliska-wola-po-remoncie-CID3-IDCCoZm.html",
       "source": "olx"
     },
     {
@@ -182,10 +551,37 @@
       "source": "olx"
     },
     {
+      "title": "Wynajmę bezpośrednio Centrum, przy metrze, ochrona",
+      "lon": 21.01637962,
+      "lat": 52.22240959,
+      "rad": 0,
+      "price": 2800,
+      "link": "https://www.olx.pl/oferta/wynajme-bezposrednio-centrum-przy-metrze-ochrona-CID3-IDCTPU6.html",
+      "source": "olx"
+    },
+    {
+      "title": "Mieszkanie dla menadżera Wiatraczna, stan idealny FV",
+      "lon": 21.08553,
+      "lat": 52.23876,
+      "rad": 2000,
+      "price": 2199,
+      "link": "https://www.olx.pl/oferta/mieszkanie-dla-menadzera-wiatraczna-stan-idealny-fv-CID3-IDCSlTS.html",
+      "source": "olx"
+    },
+    {
+      "title": "Stylowe mieszkanie 57m2 świeżo po remoncie przy Placu Unii od 12/2019!",
+      "lon": 21.02240656,
+      "lat": 52.20804936,
+      "rad": 2000,
+      "price": 3000,
+      "link": "https://www.olx.pl/oferta/stylowe-mieszkanie-57m2-swiezo-po-remoncie-przy-placu-unii-od-12-2019-CID3-IDC1ltr.html",
+      "source": "olx"
+    },
+    {
       "title": "Mieszkanie metro wilanowska",
-      "lon": 21.02822541,
-      "lat": 52.18052069,
-      "rad": 500,
+      "lon": 21.02822495,
+      "lat": 52.1805191,
+      "rad": 500000,
       "price": 2500,
       "link": "https://www.olx.pl/oferta/mieszkanie-metro-wilanowska-CID3-IDCVM5B.html",
       "source": "olx"
@@ -197,24 +593,6 @@
       "rad": 3000,
       "price": 3000,
       "link": "https://www.olx.pl/oferta/dwupokojowy-apartament-55m2-na-mokotowie-CID3-IDCVLyt.html",
-      "source": "olx"
-    },
-    {
-      "title": "Bezpośrednio wynajmę mieszkanie 2-pokojowe",
-      "lon": 20.97974633,
-      "lat": 52.17894115,
-      "rad": 2000,
-      "price": 2500,
-      "link": "https://www.olx.pl/oferta/bezposrednio-wynajme-mieszkanie-2-pokojowe-CID3-IDCS1gq.html",
-      "source": "olx"
-    },
-    {
-      "title": "Mieszkanie dla menadżera Wiatraczna, stan idealny FV",
-      "lon": 21.08553,
-      "lat": 52.23876,
-      "rad": 2000,
-      "price": 2199,
-      "link": "https://www.olx.pl/oferta/mieszkanie-dla-menadzera-wiatraczna-stan-idealny-fv-CID3-IDCSlTS.html",
       "source": "olx"
     },
     {
@@ -263,15 +641,6 @@
       "source": "olx"
     },
     {
-      "title": "Dwa oddzielne pokoje do wynajęcia na Białołęce od zaraz!",
-      "lon": 20.99661,
-      "lat": 52.33008,
-      "rad": 3000,
-      "price": 2150,
-      "link": "https://www.olx.pl/oferta/dwa-oddzielne-pokoje-do-wynajecia-na-bialolece-od-zaraz-CID3-IDCVBFT.html",
-      "source": "olx"
-    },
-    {
       "title": "Apartament ul. Chłodna 22a , nowoczesne 2 pok z miejscem parkingowym",
       "lon": 21.01522,
       "lat": 52.23474,
@@ -317,39 +686,12 @@
       "source": "olx"
     },
     {
-      "title": "Marszałkowska 140, Śródmieście, 2 pokoje ekskluzywnie , balkon,0%",
-      "lon": 21.01522,
-      "lat": 52.23474,
-      "rad": 0,
-      "price": 3400,
-      "link": "https://www.olx.pl/oferta/marszalkowska-140-srodmiescie-2-pokoje-ekskluzywnie-balkon-0-CID3-IDC8lCZ.html",
-      "source": "olx"
-    },
-    {
       "title": "Wynajmę mieszkanie 40 m2",
       "lon": 20.9422675,
       "lat": 52.3290294,
       "rad": 0.5,
       "price": 1700,
       "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-40-m2-CID3-IDC6LSk.html",
-      "source": "olx"
-    },
-    {
-      "title": "Mieszkanie 2 pokoje Karolkowa 28 metro Rondo Daszyńskiego",
-      "lon": 20.96608,
-      "lat": 52.23725,
-      "rad": 3000,
-      "price": 3300,
-      "link": "https://www.olx.pl/oferta/mieszkanie-2-pokoje-karolkowa-28-metro-rondo-daszynskiego-CID3-IDCH3mH.html",
-      "source": "olx"
-    },
-    {
-      "title": "Wynajmę mieszkanie - Żerań",
-      "lon": 20.99661,
-      "lat": 52.33008,
-      "rad": 2000,
-      "price": 2100,
-      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-zeran-CID3-IDCKMGr.html",
       "source": "olx"
     },
     {
@@ -425,6 +767,15 @@
       "source": "olx"
     },
     {
+      "title": "Ciche mieszkanie do wynajęcia",
+      "lon": 21.07510722,
+      "lat": 52.15462617,
+      "rad": 0,
+      "price": 2300,
+      "link": "https://www.olx.pl/oferta/ciche-mieszkanie-do-wynajecia-CID3-IDA5Ies.html",
+      "source": "olx"
+    },
+    {
       "title": "Bezpośrednio 2 pokoje 41m2 przy metrze Wileńska i Dworcu Wschodnim",
       "lon": 21.04503905,
       "lat": 52.25353856,
@@ -461,24 +812,6 @@
       "source": "olx"
     },
     {
-      "title": "Mieszkanie w nowej inwestycji do wynajęcia - Mokotow",
-      "lon": 21.03232,
-      "lat": 52.19282,
-      "rad": 0,
-      "price": 2650,
-      "link": "https://www.olx.pl/oferta/mieszkanie-w-nowej-inwestycji-do-wynajecia-mokotow-CID3-IDCVoHm.html",
-      "source": "olx"
-    },
-    {
-      "title": "Mieszkanie 2 pokoje, Białołęka, piękne, czyste, przytulne z kominkiem",
-      "lon": 20.9745507,
-      "lat": 52.33600625,
-      "rad": 3000,
-      "price": 1900,
-      "link": "https://www.olx.pl/oferta/mieszkanie-2-pokoje-bialoleka-piekne-czyste-przytulne-z-kominkiem-CID3-IDCaqUf.html",
-      "source": "olx"
-    },
-    {
       "title": "Urocze 2 Pokojowe Mieszkanie Ursynów, Blisko Metra",
       "lon": 21.0372348,
       "lat": 52.15758468,
@@ -506,30 +839,21 @@
       "source": "olx"
     },
     {
+      "title": "Wynajmę mieszkanie - Żerań",
+      "lon": 20.99661,
+      "lat": 52.33008,
+      "rad": 2000,
+      "price": 2100,
+      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-zeran-CID3-IDCKMGr.html",
+      "source": "olx"
+    },
+    {
       "title": "Apartment for rent -City Centre, Trio Apartments B- JUST BY METRO",
       "lon": 21.01522,
       "lat": 52.23474,
       "rad": 0,
       "price": 3500,
       "link": "https://www.olx.pl/oferta/apartment-for-rent-city-centre-trio-apartments-b-just-by-metro-CID3-IDClzPm.html",
-      "source": "olx"
-    },
-    {
-      "title": "2 pokojowe mieszkanie blisko centrum, 6 min od metra Pola Mokotowskie",
-      "lon": 21.02139804,
-      "lat": 52.20784894,
-      "rad": 0,
-      "price": 2165,
-      "link": "https://www.olx.pl/oferta/2-pokojowe-mieszkanie-blisko-centrum-6-min-od-metra-pola-mokotowskie-CID3-IDBDSYf.html",
-      "source": "olx"
-    },
-    {
-      "title": "Stylowe mieszkanie 57m2 świeżo po remoncie przy Placu Unii od 12/2019!",
-      "lon": 21.02240656,
-      "lat": 52.20804936,
-      "rad": 2000,
-      "price": 3000,
-      "link": "https://www.olx.pl/oferta/stylowe-mieszkanie-57m2-swiezo-po-remoncie-przy-placu-unii-od-12-2019-CID3-IDC1ltr.html",
       "source": "olx"
     },
     {
@@ -542,30 +866,12 @@
       "source": "olx"
     },
     {
-      "title": "OKAZJA! 2 pok. 45 m2 Skorosze Ursus",
-      "lon": 20.88159,
-      "lat": 52.19474,
-      "rad": 0,
-      "price": 2200,
-      "link": "https://www.olx.pl/oferta/okazja-2-pok-45-m2-skorosze-ursus-CID3-IDCLnLa.html",
-      "source": "olx"
-    },
-    {
       "title": "2 osobne pokoje 60 m2 / Stara Ochota / ul. Radomska / Grójecka",
       "lon": 20.97928,
       "lat": 52.21374,
       "rad": 2000,
       "price": 2300,
       "link": "https://www.olx.pl/oferta/2-osobne-pokoje-60-m2-stara-ochota-ul-radomska-grojecka-CID3-IDCeiaZ.html",
-      "source": "olx"
-    },
-    {
-      "title": "Mieszkanie 2-pokojowe z ładnym widokiem ok. 50m2 Mokotów",
-      "lon": 21.05343606,
-      "lat": 52.21154662,
-      "rad": 1375,
-      "price": 2550,
-      "link": "https://www.olx.pl/oferta/mieszkanie-2-pokojowe-z-ladnym-widokiem-ok-50m2-mokotow-CID3-IDCKkec.html",
       "source": "olx"
     },
     {
@@ -587,39 +893,12 @@
       "source": "olx"
     },
     {
-      "title": "Mieszkanie 2 pokoje z osobną kuchnią- Kabaty",
-      "lon": 21.03333,
-      "lat": 52.1401,
-      "rad": 2000,
-      "price": 2700,
-      "link": "https://www.olx.pl/oferta/mieszkanie-2-pokoje-z-osobna-kuchnia-kabaty-CID3-IDCFD0c.html",
-      "source": "olx"
-    },
-    {
-      "title": "Wynajmę dwa pokoje w nowym budynku w Miasteczku Wilanów + garaż",
-      "lon": 21.06515086,
-      "lat": 52.16610455,
-      "rad": 0,
-      "price": 2450,
-      "link": "https://www.olx.pl/oferta/wynajme-dwa-pokoje-w-nowym-budynku-w-miasteczku-wilanow-garaz-CID3-IDxQR8N.html",
-      "source": "olx"
-    },
-    {
       "title": "Nowe mieszkanie przy metrze, 2 pokoje, super stan, pełne wyposażenie!",
       "lon": 20.96938476,
       "lat": 52.23230885,
       "rad": 3000,
       "price": 2150,
       "link": "https://www.olx.pl/oferta/nowe-mieszkanie-przy-metrze-2-pokoje-super-stan-pelne-wyposazenie-CID3-IDCDv2f.html",
-      "source": "olx"
-    },
-    {
-      "title": "Wynajmę mieszkanie na Ursunowie przy ul. Stryjeńskich",
-      "lon": 21.05444427,
-      "lat": 52.14115347,
-      "rad": 2000,
-      "price": 2200,
-      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-na-ursunowie-przy-ul-stryjenskich-CID3-IDCIao2.html",
       "source": "olx"
     },
     {
@@ -638,15 +917,6 @@
       "rad": 0,
       "price": 2200,
       "link": "https://www.olx.pl/oferta/atrakcyjne-mieszkanie-na-malborskiej-58-m-wolne-od-stycznia-2020-CID3-IDCGhpf.html",
-      "source": "olx"
-    },
-    {
-      "title": "Stylowe mieszkanie na Mokotowie / 2 pokoje od 30.12",
-      "lon": 20.99318735,
-      "lat": 52.19298463,
-      "rad": 0,
-      "price": 2500,
-      "link": "https://www.olx.pl/oferta/stylowe-mieszkanie-na-mokotowie-2-pokoje-od-30-12-CID3-IDCVbKx.html",
       "source": "olx"
     },
     {
@@ -713,30 +983,12 @@
       "source": "olx"
     },
     {
-      "title": "Piękne Mieszkanie 40m2 - W Pełni Wyposażone",
-      "lon": 20.98132,
-      "lat": 52.26735,
-      "rad": 2000,
-      "price": 2300,
-      "link": "https://www.olx.pl/oferta/piekne-mieszkanie-40m2-w-pelni-wyposazone-CID3-IDCT6qO.html",
-      "source": "olx"
-    },
-    {
       "title": "Piękne mieszkanie 58m na Sadybie do wynajęcia",
       "lon": 21.08552933,
       "lat": 52.2387619,
       "rad": 2000,
       "price": 3500,
       "link": "https://www.olx.pl/oferta/piekne-mieszkanie-58m-na-sadybie-do-wynajecia-CID3-IDBPCWG.html",
-      "source": "olx"
-    },
-    {
-      "title": "Bezpośrednio 2 pokoje w wysokim standardzie, ul. Romańska",
-      "lon": 20.96608,
-      "lat": 52.23725,
-      "rad": 2000,
-      "price": 2500,
-      "link": "https://www.olx.pl/oferta/bezposrednio-2-pokoje-w-wysokim-standardzie-ul-romanska-CID3-IDCT3Op.html",
       "source": "olx"
     },
     {
@@ -803,15 +1055,6 @@
       "source": "olx"
     },
     {
-      "title": "2 pokojowe mieszkanie w centrum przy metrze BEZPOŚREDNIO- możliwość FV",
-      "lon": 20.96608,
-      "lat": 52.23725,
-      "rad": 0,
-      "price": 2500,
-      "link": "https://www.olx.pl/oferta/2-pokojowe-mieszkanie-w-centrum-przy-metrze-bezposrednio-mozliwosc-fv-CID3-IDCUyCm.html",
-      "source": "olx"
-    },
-    {
       "title": "Mieszkanie na wynajem ul.Bluszczanska Dolny Mokotów (Sielce/Czerniakow",
       "lon": 21.06076989,
       "lat": 52.19628285,
@@ -845,15 +1088,6 @@
       "rad": 2000,
       "price": 2500,
       "link": "https://www.olx.pl/oferta/rozkladowe-2-pokoje-balkon-saska-kepa-miedzynarodowa-k-walecznych-CID3-IDCWZoX.html",
-      "source": "olx"
-    },
-    {
-      "title": "NOWE, 2 pokojowe 42m2, Warszawa Wola, Obozowa 20, miejsce garażowe, 3p",
-      "lon": 20.96455574,
-      "lat": 52.24584961,
-      "rad": 0,
-      "price": 3500,
-      "link": "https://www.olx.pl/oferta/nowe-2-pokojowe-42m2-warszawa-wola-obozowa-20-miejsce-garazowe-3p-CID3-IDBDWPV.html",
       "source": "olx"
     },
     {
@@ -911,15 +1145,6 @@
       "source": "olx"
     },
     {
-      "title": "56m2 - 2-pokojowe z garażem",
-      "lon": 20.90886894,
-      "lat": 52.19728421,
-      "rad": 0,
-      "price": 2500,
-      "link": "https://www.olx.pl/oferta/56m2-2-pokojowe-z-garazem-CID3-IDAgikv.html",
-      "source": "olx"
-    },
-    {
       "title": "Luksusowy apartament na strzeżonym osiedlu",
       "lon": 21.03232,
       "lat": 52.19282,
@@ -938,15 +1163,6 @@
       "source": "olx"
     },
     {
-      "title": "Mieszkanie do wynajęcia - Stare Miasto",
-      "lon": 21.00693774,
-      "lat": 52.23192782,
-      "rad": 3000,
-      "price": 2600,
-      "link": "https://www.olx.pl/oferta/mieszkanie-do-wynajecia-stare-miasto-CID3-IDCUnyX.html",
-      "source": "olx"
-    },
-    {
       "title": "Mokotów,Wynalazek,2pok,46m2,garaż",
       "lon": 21.03232,
       "lat": 52.19282,
@@ -962,15 +1178,6 @@
       "rad": 0.5,
       "price": 2500,
       "link": "https://www.olx.pl/oferta/56-m2-do-wynajecia-praga-poludnie-nad-jeziorem-balaton-CID3-IDCx2u1.html",
-      "source": "olx"
-    },
-    {
-      "title": "Mieszkanie Metro Wierzbno (2 oddzielne nieprzechodnie pokoje)",
-      "lon": 21.03232,
-      "lat": 52.19282,
-      "rad": 2000,
-      "price": 1700,
-      "link": "https://www.olx.pl/oferta/mieszkanie-metro-wierzbno-2-oddzielne-nieprzechodnie-pokoje-CID3-IDCWOrE.html",
       "source": "olx"
     },
     {
@@ -1055,15 +1262,6 @@
       "source": "olx"
     },
     {
-      "title": "Mieszkanie Aluzyjna, 2 pokoje, 45m, Białołęka, Tarchomin",
-      "lon": 20.94136523,
-      "lat": 52.34892636,
-      "rad": 0.5,
-      "price": 1800,
-      "link": "https://www.olx.pl/oferta/mieszkanie-aluzyjna-2-pokoje-45m-bialoleka-tarchomin-CID3-IDCLYHE.html",
-      "source": "olx"
-    },
-    {
       "title": "Mokotów - 40m2- 2 pokoje- NOWE- Wolne- ul. Cybernetyki / Obrzeżna",
       "lon": 21.00056265,
       "lat": 52.17653276,
@@ -1091,15 +1289,6 @@
       "source": "olx"
     },
     {
-      "title": "2 pokoje 49,6m2 Ursus Skorosze ul. Dzieci Warszawy 27A - POLECAM",
-      "lon": 20.90452766,
-      "lat": 52.19293213,
-      "rad": 0,
-      "price": 2400,
-      "link": "https://www.olx.pl/oferta/2-pokoje-49-6m2-ursus-skorosze-ul-dzieci-warszawy-27a-polecam-CID3-IDCMpPp.html",
-      "source": "olx"
-    },
-    {
       "title": "Wynajmę mieszkanie 43m2 Warszawa Białołęka",
       "lon": 21.07111142,
       "lat": 52.31622927,
@@ -1115,15 +1304,6 @@
       "rad": 2000,
       "price": 2700,
       "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-CID3-IDCWFaZ.html",
-      "source": "olx"
-    },
-    {
-      "title": "Wynajmę mieszkanie 2-pokojowe na Bemowie",
-      "lon": 20.90661,
-      "lat": 52.24336,
-      "rad": 0,
-      "price": 2400,
-      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-2-pokojowe-na-bemowie-CID3-IDCTJcr.html",
       "source": "olx"
     },
     {
@@ -1196,15 +1376,6 @@
       "rad": 0,
       "price": 2800,
       "link": "https://www.olx.pl/oferta/mieszkanie-srodmiescie-muranow-CID3-IDCJmfm.html",
-      "source": "olx"
-    },
-    {
-      "title": "BEZPOŚREDNIO. Metro. Dwupokojowe",
-      "lon": 21.03433851,
-      "lat": 52.1556502,
-      "rad": 0,
-      "price": 2600,
-      "link": "https://www.olx.pl/oferta/bezposrednio-metro-dwupokojowe-CID3-IDCSsGN.html",
       "source": "olx"
     },
     {
@@ -1361,15 +1532,6 @@
       "source": "olx"
     },
     {
-      "title": "Dwupokojowe mieszkanie z garażem w cenie Fort Bema",
-      "lon": 20.90661,
-      "lat": 52.24336,
-      "rad": 3000,
-      "price": 2500,
-      "link": "https://www.olx.pl/oferta/dwupokojowe-mieszkanie-z-garazem-w-cenie-fort-bema-CID3-IDCWnIJ.html",
-      "source": "olx"
-    },
-    {
       "title": "Bezpośrednio, 2 pokoje, balkon, garaż, Żerań",
       "lon": 21.03784,
       "lat": 52.25786,
@@ -1385,6 +1547,15 @@
       "rad": 1183,
       "price": 3000,
       "link": "https://www.olx.pl/oferta/dwupokojowe-mieszkanie-muranow-blisko-metra-CID3-IDCWl6D.html",
+      "source": "olx"
+    },
+    {
+      "title": "Wynajmę mieszkanie 2-pokojowe na Bemowie",
+      "lon": 20.90661,
+      "lat": 52.24336,
+      "rad": 0,
+      "price": 2400,
+      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-2-pokojowe-na-bemowie-CID3-IDCTJcr.html",
       "source": "olx"
     },
     {
@@ -1430,24 +1601,6 @@
       "rad": 0,
       "price": 2000,
       "link": "https://www.olx.pl/oferta/mieszkanie-do-wynajecia-57m2-batalionow-chlopskich-bemowo-przy-parku-CID3-IDC6ukU.html",
-      "source": "olx"
-    },
-    {
-      "title": "Warszawa, Ursynów, Wynajmę Mieszkanie 2-pok, 56m2, blisko metraNatolin",
-      "lon": 21.03333,
-      "lat": 52.1401,
-      "rad": 3000,
-      "price": 2600,
-      "link": "https://www.olx.pl/oferta/warszawa-ursynow-wynajme-mieszkanie-2-pok-56m2-blisko-metranatolin-CID3-IDCWhcc.html",
-      "source": "olx"
-    },
-    {
-      "title": "Nowe mieszkanie 2 pokojowe, osobna kuchnia + garaż, Bemowo",
-      "lon": 20.90661049,
-      "lat": 52.24335861,
-      "rad": 2000,
-      "price": 2500,
-      "link": "https://www.olx.pl/oferta/nowe-mieszkanie-2-pokojowe-osobna-kuchnia-garaz-bemowo-CID3-IDCBQrC.html",
       "source": "olx"
     },
     {
@@ -1613,15 +1766,6 @@
       "source": "olx"
     },
     {
-      "title": "2 pokojowe, od zaraz :-)",
-      "lon": 20.96608,
-      "lat": 52.23725,
-      "rad": 0,
-      "price": 2450,
-      "link": "https://www.olx.pl/oferta/2-pokojowe-od-zaraz-CID3-IDCQxT9.html",
-      "source": "olx"
-    },
-    {
       "title": "Ursynów- 43m2 - 2 pokoje- NOWE- Garaż- Wys.Standard- Metro Imielin",
       "lon": 21.03607658,
       "lat": 52.15087117,
@@ -1757,15 +1901,6 @@
       "source": "olx"
     },
     {
-      "title": "Mieszkanie 45 m2. Ursynów ul. Kłobucka 8",
-      "lon": 20.99453537,
-      "lat": 52.16106036,
-      "rad": 0,
-      "price": 2350,
-      "link": "https://www.olx.pl/oferta/mieszkanie-45-m2-ursynow-ul-klobucka-8-CID3-IDCUV5z.html",
-      "source": "olx"
-    },
-    {
       "title": "Rondo Daszynskiego Browary Krochmalna bezpośrednio",
       "lon": 21.01522,
       "lat": 52.23474,
@@ -1838,15 +1973,6 @@
       "source": "olx"
     },
     {
-      "title": "2-pokojowe mieszkanie Warszawa Targówek, ul. Zielone Zacisze",
-      "lon": 21.052291,
-      "lat": 52.28919585,
-      "rad": 0,
-      "price": 1800,
-      "link": "https://www.olx.pl/oferta/2-pokojowe-mieszkanie-warszawa-targowek-ul-zielone-zacisze-CID3-IDBX4FR.html",
-      "source": "olx"
-    },
-    {
       "title": "Dwupokojowe z oddzielną kuchnią z miejscem postojowym na posesji",
       "lon": 21.01522,
       "lat": 52.23474,
@@ -1874,15 +2000,6 @@
       "source": "olx"
     },
     {
-      "title": "Mieszkanie dwupokojowe do wynajęcia na Woli, Sławińska",
-      "lon": 20.97037149,
-      "lat": 52.22369729,
-      "rad": 0,
-      "price": 2300,
-      "link": "https://www.olx.pl/oferta/mieszkanie-dwupokojowe-do-wynajecia-na-woli-slawinska-CID3-IDCaYNP.html",
-      "source": "olx"
-    },
-    {
       "title": "Mieszkanie 2 pokoje w Centrum",
       "lon": 20.9956096,
       "lat": 52.24046968,
@@ -1898,15 +2015,6 @@
       "rad": 2000,
       "price": 2500,
       "link": "https://www.olx.pl/oferta/mieszkanie-na-wynajem-srodmiescie-wola-dwa-pokoje-47m2-CID3-IDCUHzm.html",
-      "source": "olx"
-    },
-    {
-      "title": "Dwa pokoje przy Św. Wincentego",
-      "lon": 21.04396543,
-      "lat": 52.28895094,
-      "rad": 0,
-      "price": 2000,
-      "link": "https://www.olx.pl/oferta/dwa-pokoje-przy-sw-wincentego-CID3-IDCzzVI.html",
       "source": "olx"
     },
     {
@@ -1943,15 +2051,6 @@
       "rad": 0,
       "price": 3200,
       "link": "https://www.olx.pl/oferta/nowe-2-pokojowe-43m2-warszawa-wola-klimatyzacja-miejsce-parkingowe-CID3-IDCPet1.html",
-      "source": "olx"
-    },
-    {
-      "title": "Mieszkanie do wynajęcia Muranów",
-      "lon": 21.03232,
-      "lat": 52.19282,
-      "rad": 2000,
-      "price": 2000,
-      "link": "https://www.olx.pl/oferta/mieszkanie-do-wynajecia-muranow-CID3-IDCz8Kz.html",
       "source": "olx"
     },
     {
@@ -2036,15 +2135,6 @@
       "source": "olx"
     },
     {
-      "title": "Wynajem pokoju Białołęka/Żerań ul. Modlińska",
-      "lon": 20.9791932,
-      "lat": 52.30888439,
-      "rad": 0,
-      "price": 1,
-      "link": "https://www.olx.pl/oferta/wynajem-pokoju-bialoleka-zeran-ul-modlinska-CID3-IDACx5E.html",
-      "source": "olx"
-    },
-    {
       "title": "2 pokoje na Bemowie ul. Górczewska",
       "lon": 20.90321969,
       "lat": 52.2398124,
@@ -2117,12 +2207,12 @@
       "source": "olx"
     },
     {
-      "title": "Apartment for rent, 50 m2, Grójecka, Triton Park - 2500 zł",
+      "title": "Super mieszkanie na Ochocie - ul. Grójecka 194, Triton Park - 2500 zł",
       "lon": 20.9657402,
       "lat": 52.20054626,
       "rad": 0,
       "price": 2500,
-      "link": "https://www.olx.pl/oferta/apartment-for-rent-50-m2-grojecka-triton-park-2500-zl-CID3-IDCuXmE.html",
+      "link": "https://www.olx.pl/oferta/super-mieszkanie-na-ochocie-ul-grojecka-194-triton-park-2500-zl-CID3-IDCuXmE.html",
       "source": "olx"
     },
     {
@@ -2429,96 +2519,6 @@
       "rad": 0,
       "price": 2200,
       "link": "https://www.olx.pl/oferta/fajne-mieszkanie-na-bialolece-od-zaraz-CID3-IDCIa0f.html",
-      "source": "olx"
-    },
-    {
-      "title": "Nocznickiego 23,Bielany,2 pokoje,garaż,BEZ PROWIZJI!",
-      "lon": 20.93958,
-      "lat": 52.28479,
-      "rad": 2000,
-      "price": 2300,
-      "link": "https://www.olx.pl/oferta/nocznickiego-23-bielany-2-pokoje-garaz-bez-prowizji-CID3-IDCkBHR.html",
-      "source": "olx"
-    },
-    {
-      "title": "Wynajmę dwupokojowe mieszkanie Warszawa Wola ul.Złocienia",
-      "lon": 20.96608,
-      "lat": 52.23725,
-      "rad": 2000,
-      "price": 1400,
-      "link": "https://www.olx.pl/oferta/wynajme-dwupokojowe-mieszkanie-warszawa-wola-ul-zlocienia-CID3-IDCTE8r.html",
-      "source": "olx"
-    },
-    {
-      "title": "Nocznickiego 23,Bielany,2 pokoje z garażem,BEZ PROW.",
-      "lon": 20.93958,
-      "lat": 52.28479,
-      "rad": 0,
-      "price": 2300,
-      "link": "https://www.olx.pl/oferta/nocznickiego-23-bielany-2-pokoje-z-garazem-bez-prow-CID3-IDzju5d.html",
-      "source": "olx"
-    },
-    {
-      "title": "Mieszkanie wynajem Bernardyńska 50m2",
-      "lon": 20.94284111,
-      "lat": 52.3436909,
-      "rad": 0.5,
-      "price": 2800,
-      "link": "https://www.olx.pl/oferta/mieszkanie-wynajem-bernardynska-50m2-CID3-IDCTDDe.html",
-      "source": "olx"
-    },
-    {
-      "title": "Komfortowe dwupokojowe z garażem podziemnym super lokalizacja",
-      "lon": 20.99661,
-      "lat": 52.33008,
-      "rad": 3000,
-      "price": 2200,
-      "link": "https://www.olx.pl/oferta/komfortowe-dwupokojowe-z-garazem-podziemnym-super-lokalizacja-CID3-IDCOcDY.html",
-      "source": "olx"
-    },
-    {
-      "title": "2-pok 40m2 URSUS,pokoje oddzielne,meble,agd+tylko liczniki",
-      "lon": 20.87300693,
-      "lat": 52.19337205,
-      "rad": 0,
-      "price": 1750,
-      "link": "https://www.olx.pl/oferta/2-pok-40m2-ursus-pokoje-oddzielne-meble-agd-tylko-liczniki-CID3-IDCTAzZ.html",
-      "source": "olx"
-    },
-    {
-      "title": "Wynajmę mieszkanie na Pradze Północ",
-      "lon": 21.24147,
-      "lat": 52.23302,
-      "rad": 2000,
-      "price": 2200,
-      "link": "https://www.olx.pl/oferta/wynajme-mieszkanie-na-pradze-polnoc-CID3-IDC1jFt.html",
-      "source": "olx"
-    },
-    {
-      "title": "Apartament wykonczony w wysokim standardzie przy metrze Natolin -54 m2",
-      "lon": 21.05199816,
-      "lat": 52.14410347,
-      "rad": 0,
-      "price": 2400,
-      "link": "https://www.olx.pl/oferta/apartament-wykonczony-w-wysokim-standardzie-przy-metrze-natolin-54-m2-CID3-IDCtOKT.html",
-      "source": "olx"
-    },
-    {
-      "title": "Wilanów, wysoki standard, garaż, duży taras, 40 m, od właściciela",
-      "lon": 21.09296,
-      "lat": 52.15926,
-      "rad": 2000,
-      "price": 2250,
-      "link": "https://www.olx.pl/oferta/wilanow-wysoki-standard-garaz-duzy-taras-40-m-od-wlasciciela-CID3-IDyktgz.html",
-      "source": "olx"
-    },
-    {
-      "title": "Osiedle Saska ul. Jana Nowaka Jeziorańskiego, 2 pok z balkonem",
-      "lon": 21.08553,
-      "lat": 52.23876,
-      "rad": 0,
-      "price": 2400,
-      "link": "https://www.olx.pl/oferta/osiedle-saska-ul-jana-nowaka-jezioranskiego-2-pok-z-balkonem-CID3-IDCIwRA.html",
       "source": "olx"
     }
   ]
